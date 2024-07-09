@@ -20,7 +20,6 @@
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang.git feeds/packages/lang/golang
-git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall-packages
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 git clone https://github.com/gdy666/luci-app-lucky.git package/luci-app-lucky
